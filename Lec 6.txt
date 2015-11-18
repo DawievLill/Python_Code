@@ -1,0 +1,24 @@
+
+Notes on Lecture 6
+
+Dictionaries continued...
+
+Keys can be a string, a tuple, etc. Very versatile. 
+
+Different data structures have different costs
+
+Divide and conquer
+	Small problems are easier to solve
+	Solutions to small problems can easily be combined to solve the orginal problem
+
+Recursion (new technique)
+	Way of describing problems
+	Way of designing solutions
+
+Base case
+	Typically the direct answer
+
+Inductive (recursive) case
+	Reduce to a simpler version of the same problem plus other single operations
+
+Tower of Hanoi problem
