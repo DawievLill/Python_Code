@@ -12,4 +12,7 @@ while number > 0:
 
 #Ok, let us try and work with this IDE. I think I like Atom more. But this isn't a bad environment either.
 
-# I like the way this looks better than PyCharm. Will perhaps use both. But I really like atom. 
+#I like the way this looks better than PyCharm. Will perhaps use both. But I really like atom.
+#I don't have to use PyCharm just yet (quite a few features I don't get.)
+
+#Should have been a programmer. Would have been great. 
