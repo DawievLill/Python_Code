@@ -15,4 +15,5 @@ while number > 0:
 #I like the way this looks better than PyCharm. Will perhaps use both. But I really like atom.
 #I don't have to use PyCharm just yet (quite a few features I don't get.)
 
-#Should have been a programmer. Would have been great. 
+#Should have been a programmer. Would have been great. The only issue at this point is that I don't have
+#the ability to push. I need to set up the SSH protocol. Should be able to figure it out. 
