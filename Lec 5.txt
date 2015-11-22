@@ -7,7 +7,7 @@ L.append(e) -- mutates L, i.e. a side effect
 
 Concatenate through append -- modifies the old list, does not produce a new one
 
-Must say, I really like Python, cool computer language. I wonder how Julia is in comparison. 
+Must say, I really like Python, cool computer language. I wonder how Julia is in comparison.
 
 Mutation vs. changing the binding
 
@@ -16,6 +16,6 @@ Dictionary differs from a list in two ways
 2. Indices (keys) need not be integers -- the keys can be any immutable type
 
 Set of key value pairs, access it by looking at the keys
-Dictionaries are sets, not sequences -- they don't have a specific order. 
+Dictionaries are sets, not sequences -- they don't have a specific order.
 
 Keys need to be immutable!
