@@ -3,7 +3,7 @@ Notes on Lecture 6
 
 Dictionaries continued...
 
-Keys can be a string, a tuple, etc. Very versatile. 
+Keys can be a string, a tuple, etc. Very versatile.
 
 Different data structures have different costs
 
