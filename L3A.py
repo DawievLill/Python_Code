@@ -8,4 +8,6 @@ while number < 11:
 print "Goodbye!"
 
 
-#I am making changes to this document, but not much is happening. 
+#I am making changes to this document, but not much is happening.
+
+#Hierdie is python code, wil dit op github sit. 
