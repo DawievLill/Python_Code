@@ -8,9 +8,14 @@ step = epsilon**2
 numGuesses = 0
 ans = 0.0
 
+#These values are all selected to initialise.
+
 while (abs(ans**2 - x)) >= epsilon and ans <= x:
     ans += step
     numGuesses += 1
+#Starts of with ans**2 = 0, and x =25. Step increases ans by 0.001. Next ans is 0.001.
+#Seeing as this is smaller than 25, we run through the process again. While loop is still TRUE, so will continue to run.
+#New ans is 0.001 + 0.001 = 0.002. This is smaller than 25 and the distance between the two is still larger than epsilon.
 
 print('numGuesses = ' + str(numGuesses))
 
