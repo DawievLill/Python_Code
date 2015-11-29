@@ -23,33 +23,29 @@
 # We know that the x input must come from raw input by the user.
 
 print("Please think of a number between 0 and 100!")
-x = int(raw_input())
+
 low = 0
-high = x
-ans = (high + low)/2
+high = 100
+guessed = False #Initialise the loop with a False value. Get the loop to run till my guess is correct
 
-print "Is your secret number", ans
+while not guessed: #This was the loop that I needed to add in order to get it to run multiple times
 
-print ("Enter 'h' to indicate that the guess is too high. Enter 'l' to indicate that the guess is too low. Enter 'c' to indicate I guessed correctly.")
 
-#Up until this point it works fine
+    guess = (high + low)/2
+    print ("Is your secret number %s?") % guess
+    print ("Enter 'h' to indicate that the guess is too high. Enter 'l' to indicate that the guess is too low. Enter 'c' to indicate I guessed correctly.")
+    x = raw_input()
 
-x = raw_input()
+    if x == 'h':
+        high = guess
 
-if x == 'h':
-    low = 0
-    high = ans
-    ansh = (high + low)/2
-    print "Is your secret number", ansh
+    elif x == 'l':
+        low = guess
 
-elif x == 'l':
-    low = ans
-    high = 100
-    ansl = (high + low)/2
-    print "Is your secret number", ansl
+    elif x == 'c':
+        guessed = True
 
-elif x == 'c':
-    print ("Cool")
+    else:
+        print ("Sorry, I didn't understand your input.")
 
-else:
-    print "I don't know what this means"
+print ("Game over. Your secret number was: %s") % guess
