@@ -1,0 +1,15 @@
+
+
+This is the lecture on definitions.
+
+Turing complete -- anything that is computable we can compute
+
+Scripts that we have written thus far lacks abstraction
+-- The practicality of it needs to be addressed
+
+With definitions the internal details are hidden from the user
+
+Syntax for the definition of the function
+
+def <function name> (<formal parameters>)
+    <function body>
